@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ETML\\CFC\\23-24_secondYear\\Projects\\P_BULLE\\docker-compose\\80_envd-matvelickov-myParfums-asp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84AACBBC-6FF1-4ABB-B02C-22693D64320C}|matvelickov-myParfums-asp\\matvelickov-myParfums-asp.csproj|d:\\etml\\cfc\\23-24_secondyear\\projects\\p_bulle\\docker-compose\\80_envd-matvelickov-myparfums-asp\\matvelickov-myparfums-asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84AACBBC-6FF1-4ABB-B02C-22693D64320C}|matvelickov-myParfums-asp\\matvelickov-myParfums-asp.csproj|solutionrelative:matvelickov-myparfums-asp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AACBBC-6FF1-4ABB-B02C-22693D64320C}|matvelickov-myParfums-asp\\matvelickov-myParfums-asp.csproj|d:\\etml\\cfc\\23-24_secondyear\\projects\\p_bulle\\docker-compose\\80_envd-matvelickov-myparfums-asp\\matvelickov-myparfums-asp\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AACBBC-6FF1-4ABB-B02C-22693D64320C}|matvelickov-myParfums-asp\\matvelickov-myParfums-asp.csproj|solutionrelative:matvelickov-myparfums-asp\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AACBBC-6FF1-4ABB-B02C-22693D64320C}|matvelickov-myParfums-asp\\matvelickov-myParfums-asp.csproj|d:\\etml\\cfc\\23-24_secondyear\\projects\\p_bulle\\docker-compose\\80_envd-matvelickov-myparfums-asp\\matvelickov-myparfums-asp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84AACBBC-6FF1-4ABB-B02C-22693D64320C}|matvelickov-myParfums-asp\\matvelickov-myParfums-asp.csproj|solutionrelative:matvelickov-myparfums-asp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AACBBC-6FF1-4ABB-B02C-22693D64320C}|matvelickov-myParfums-asp\\matvelickov-myParfums-asp.csproj|d:\\etml\\cfc\\23-24_secondyear\\projects\\p_bulle\\docker-compose\\80_envd-matvelickov-myparfums-asp\\matvelickov-myparfums-asp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84AACBBC-6FF1-4ABB-B02C-22693D64320C}|matvelickov-myParfums-asp\\matvelickov-myParfums-asp.csproj|solutionrelative:matvelickov-myparfums-asp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 257,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ETML\\CFC\\23-24_secondYear\\Projects\\P_BULLE\\docker-compose\\80_envd-matvelickov-myParfums-asp\\matvelickov-myParfums-asp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "matvelickov-myParfums-asp\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\ETML\\CFC\\23-24_secondYear\\Projects\\P_BULLE\\docker-compose\\80_envd-matvelickov-myParfums-asp\\matvelickov-myParfums-asp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "matvelickov-myParfums-asp\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T13:41:04.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MySql.cs",
+              "DocumentMoniker": "D:\\ETML\\CFC\\23-24_secondYear\\Projects\\P_BULLE\\docker-compose\\80_envd-matvelickov-myParfums-asp\\matvelickov-myParfums-asp\\MySql.cs",
+              "RelativeDocumentMoniker": "matvelickov-myParfums-asp\\MySql.cs",
+              "ToolTip": "D:\\ETML\\CFC\\23-24_secondYear\\Projects\\P_BULLE\\docker-compose\\80_envd-matvelickov-myParfums-asp\\matvelickov-myParfums-asp\\MySql.cs",
+              "RelativeToolTip": "matvelickov-myParfums-asp\\MySql.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:41:04.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ETML\\CFC\\23-24_secondYear\\Projects\\P_BULLE\\docker-compose\\80_envd-matvelickov-myParfums-asp\\matvelickov-myParfums-asp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "matvelickov-myParfums-asp\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ETML\\CFC\\23-24_secondYear\\Projects\\P_BULLE\\docker-compose\\80_envd-matvelickov-myParfums-asp\\matvelickov-myParfums-asp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "matvelickov-myParfums-asp\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T13:41:04.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\ETML\\CFC\\23-24_secondYear\\Projects\\P_BULLE\\docker-compose\\80_envd-matvelickov-myParfums-asp\\matvelickov-myParfums-asp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "matvelickov-myParfums-asp\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\ETML\\CFC\\23-24_secondYear\\Projects\\P_BULLE\\docker-compose\\80_envd-matvelickov-myParfums-asp\\matvelickov-myParfums-asp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "matvelickov-myParfums-asp\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-21T13:41:04.562Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

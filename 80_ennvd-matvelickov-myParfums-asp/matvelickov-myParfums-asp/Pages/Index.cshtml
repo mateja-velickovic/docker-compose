@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Page de connexion";
+}
+
+<html>
+    
+<body>
+<div class="text-center">
+ 
+
+    <h1>MyParfum's<br />Votre gestionnaire de parfums préféré</h1>
+
+    <div class="parfums">
+            @for (int x = 0; x < 8; ++x){
+            <div class="parfum">
+                <img src="../wwwroot/parfumChannel-Bleu.png" />
+                <p>TEST</p>
+                <p>TEST</p>
+            </div>
+        }
+    </div>
+
+    <div class="buttons">
+        <a href="#">
+            AJOUTER UN PARFUM
+        </a>
+        <a href="#">
+            MODIFIER UN PARFUM
+        </a>
+        <a href="#"> ENLEVER UN PARFUM </a>
+    </div>
+
+</div>
+</body>
+<</html>
+

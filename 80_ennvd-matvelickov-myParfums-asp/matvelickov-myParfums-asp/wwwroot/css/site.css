@@ -1,0 +1,93 @@
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: auto;
+    overflow-y: hidden;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+html {
+    font-size: 14px;
+    background-color: #364652;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.text-center h1 {
+    color: white;
+    padding: 20px;
+    background-color: #364652;
+}
+.parfums {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    margin: 50px 0px 50px 00px;
+}
+
+    .parfums .parfum {
+        margin: 5px;
+    }
+
+        .parfums .parfum img {
+            transition: .1s ease;
+            margin: 10px;
+            background-image:none;
+        }
+
+            .parfums .parfum img:hover {
+                transition: .1s ease;
+                transform: scale(1.1)
+            }
+
+        .parfums .parfum p {
+            line-height: 0.6rem;
+            padding: 5px;
+        }
+
+.buttons {
+    text-align: center;
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    position: relative;
+    padding: 10px;
+    bottom: 0px;
+}
+
+    .buttons a {
+        text-decoration: none;
+        margin: auto;
+        padding: 15px;
+        color: white;
+        margin: auto;
+        width: 20%;
+        background-color: #364652;
+        border-radius: 50px;
+        transition: 0.5s ease;
+        box-shadow: 1px 1px 5px black;
+    }
+
+        .buttons a:hover {
+            transition: 0.5s ease;
+            background-color: #C7DBE6;
+            color: #364652;
+        }

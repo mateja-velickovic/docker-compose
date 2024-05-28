@@ -1,0 +1,35 @@
+# Utilisation de l'image de base pour l'exécution
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+# Expose le container au port 80
+EXPOSE 80
+
+# Image pour la construction de l'application
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+
+# Variables d'environnement
+ENV APP_NAME matvelickov-myParfums-asp
+ENV APP_PROJ ${APP_NAME}/${APP_NAME}.csproj
+
+# Restaure les dépendances du projet 
+WORKDIR /src
+COPY ["${APP_PROJ}", "${APP_NAME}/"]
+RUN dotnet restore "${APP_PROJ}"
+
+# Copie tout le contenu du répertoire dans le container
+COPY . .
+WORKDIR "/src/${APP_NAME}"
+RUN dotnet build "${APP_NAME}.csproj" -c Release -o /app/build
+
+# Installation d'un package SqlServer 
+RUN dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+# Publie l'application en mode Release
+FROM build AS publish
+RUN dotnet publish "${APP_NAME}.csproj" -c Release -o /app/publish
+
+# Image finale avec l'application publiée
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "${APP_NAME}.dll"]
